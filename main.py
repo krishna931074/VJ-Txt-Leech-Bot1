@@ -51,20 +51,17 @@ async def start(bot: Client, m: Message):
 async def restart_handler(_, m):
     await m.reply_text("**Stopped**🚦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
-
+    
 
 @bot.on_message(filters.command(["txt"])&(filters.chat(ADMINS)))
 async def upload(bot: Client, m: Message):
-    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ⚡️')
+    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ⚡️.**\n\nDeveloper** : 🅑🅞🅣 🅜🅐🅓🅔 🅑🅨  LOVER 💖 BOY  content: @SONICKUWALSSCBOT **')
     input: Message = await bot.listen(editable.chat.id,filters.user(m.from_user.id))
     x = await input.download()
     await bot.send_document(-1002461666553, x)
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
     credit = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
-
-    path = f"./downloads/{m.chat.id}"
-
     try:    
         with open(x, "r") as f:
             content = f.read()
@@ -77,6 +74,7 @@ async def upload(bot: Client, m: Message):
         await m.reply_text("Invalid file input.")
         os.remove(x)
         return
+
     
    
     await editable.edit(f"**𝕋ᴏᴛᴀʟ ʟɪɴᴋ𝕤 ғᴏᴜɴᴅ ᴀʀᴇ🔗🔗** **{len(links)}**\n\n**𝕊ᴇɴᴅ 𝔽ʀᴏᴍ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴɪᴛɪᴀʟ ɪ𝕤** **1**")
