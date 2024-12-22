@@ -144,7 +144,7 @@ async def upload(bot: Client, m: Message):
     try:
         for i in range(count - 1, len(links)):
 
-            V = links[i][1].replace("file/d/","uc?export=download&id=").replace("www.youtube-nocookie.com/embed", "youtu.be").replace("www.youtube.com/live", "youtu.be").replace("www.youtube.com/embed", "youtu.be").replace("?modestbranding=1", "").replace("/view?usp=sharing","").replace("d3nzo6itypaz07", "d26g5bnklkwsh4").replace("dn6x93wafba93", "d26g5bnklkwsh4").replace("d2tiz86clzieqa", "d26g5bnklkwsh4").replace("vod.teachx.in", "d3igdi2k1ohuql.cloudfront.net").replace("downloadappx.appx.co.in", "d33g7sdvsfd029.cloudfront.net").replace("mpd","m3u8").replace("mp4","m3u8")
+            V = links[i][1].replace("file/d/","uc?export=download&id=").replace("www.youtube-nocookie.com/embed", "youtu.be").replace("www.youtube.com/live", "youtu.be").replace("www.youtube.com/embed", "youtu.be").replace("?modestbranding=1", "").replace("/view?usp=sharing","").replace("d3nzo6itypaz07", "d26g5bnklkwsh4").replace("dn6x93wafba93", "d26g5bnklkwsh4").replace("d2tiz86clzieqa", "d26g5bnklkwsh4").replace("vod.teachx.in", "d3igdi2k1ohuql.cloudfront.net").replace("downloadappx.appx.co.in", "d33g7sdvsfd029.cloudfront.net").replace("mpd","m3u8")
             url = "https://" + V
 
             if "visionias" in url:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  #Bot Created by @NtrRazYt
@@ -195,8 +195,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:❤️ @SONICKUWALSSCBOT ❤️** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR} ({res}).mkv\n\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://sonickuwalssc.blogspot.com/ **'
-                cc1 = f'**[📁] Pdf_ID:❤️ @SONICKUWALSSCBOT ❤️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://sonickuwalssc.blogspot.com/ **'
+                cc = f'**[📽️] Vid_ID:❤️ @SONICKUWALSSCBOT ❤️** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}).mkv\n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://sonickuwalssc.blogspot.com/ **'
+                cc1 = f'**[📁] Pdf_ID:❤️ @SONICKUWALSSCBOT ❤️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://sonickuwalssc.blogspot.com/ **'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -211,12 +211,12 @@ async def upload(bot: Client, m: Message):
                 
                 elif ".pdf" in url:
                     try:
-                        cmd = f'yt-dlp -o "{name}.pdf" "{url}"'
+                        cmd = f'yt-dlp -o " @SONICKUWALSSCBOT {name}.pdf" "{url}"'
                         download_cmd = f"{cmd} -R 25 --fragment-retries 25"
                         os.system(download_cmd)
-                        copy = await bot.send_document(chat_id=m.chat.id, document=f'{name}.pdf', caption=cc1)
+                        copy = await bot.send_document(chat_id=m.chat.id, document=f' @SONICKUWALSSCBOT {name}.pdf', caption=cc1)
                         count += 1
-                        os.remove(f'{name}.pdf')
+                        os.remove(f' @SONICKUWALSSCBOT {name}.pdf')
                     except FloodWait as e:
                         await m.reply_text(str(e))
                         time.sleep(e.x)
