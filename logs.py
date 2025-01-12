@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @SONICKUWALSSCBOT
-# website For Amazing Bot https://sonickuwalssc.blogspot.com/
-# Ask Doubt on telegram @SONICKUWALUPDATEKANHA
+# Don't Remove Credit Tg - @Strangerboy27_bot_strangerboy
+# website For Amazing Bot https://envs.sh/vif.jpg
+# Ask Doubt on telegram @Strangerboy27_bot_strangerboy
 
 import logging
 from logging.handlers import RotatingFileHandler
