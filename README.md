@@ -6,22 +6,22 @@
   <img src="https://https://envs.sh/vif.jpg" alt="ROHIT-STRANGER-BOY-TXT-LEECH-BOT Logo">
 </p>
 <h1 align="center">
-  SONIC KUWAL SSC TXT LEECH BOT
+  ROHIT STRANGER BOY KUWAL SSC TXT LEECH BOT
 </h1>
 
-## Deploy Tutorial - [Video Link](https://youtu.be/l1u3C_F79QE)
+## Deploy Tutorial - [Video Link](https://youtube.com/shorts/QoKf-x-dMis?si=rqqzx5sCCGgcS6FX)
 
 ## Deploy
 You can deploy this bot anywhere.
 
 
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Soninkuwal/text-leech-kanha&branch=master&name=text-leech-kanha"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Strangerboy/text-leech-kanha&branch=master&name=text-leech-kanha"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Soninkuwal/text-leech-kanha01">
+<a href="https://heroku.com/deploy?template=https://github.com/Strangerboy/text-leech-kanha01">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -52,7 +52,7 @@ port
 8080
 ```
 
-## vars.py [vars.py](https://github.com/Soninkuwal/VJ-Txt-Leech-Bot1/blob/main/modules/vars.py)
+## vars.py [vars.py](https://github.com/Strangerboy/VJ-Txt-Leech-Bot1/blob/main/modules/vars.py)
 
 ALL VERBAL NO PUT REPO APKA TELEGRAM ACCOUNT HACK HO SAKTA HAI 
 VERBAL PUT ONLY DEPLOYING SAVER IN 
