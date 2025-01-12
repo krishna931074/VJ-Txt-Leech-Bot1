@@ -1,9 +1,9 @@
-# Don't Remove Credit Tg - @SONICKUWALSSCBOT
-# website For Amazing Bot https://sonickuwalssc.blogspot.com/
-# Ask Doubt on telegram @SONICKUWALUPDATEKANHA
+# Don't Remove Credit Tg - @Strangerboy27_bot_strangerboy
+# website For Amazing Bot https://youtube.com/shorts/w03xgLHTfpc?si=6XxoGWkKUULsDDeY
+# Ask Doubt on telegram @Strangerboy27_bot_strangerboy
 
 <p align="center">
-  <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg2r8A6Rh0ghE-3VPiVucLHtcxij0eCakxCCR_uaYkjU0is0jB7lNgT4ynOJ3Pf_GF8Sz2gZ26c0--wptrA7dGi_0rJtZFtFkIRy_vgG" alt="SONIC-KUWAL-SSC-TXT-LEECH-BOT Logo">
+  <img src="https://https://envs.sh/vif.jpg" alt="ROHIT-STRANGER-BOY-TXT-LEECH-BOT Logo">
 </p>
 <h1 align="center">
   SONIC KUWAL SSC TXT LEECH BOT
