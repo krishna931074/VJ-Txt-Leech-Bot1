@@ -88,7 +88,7 @@ Last Edited on: 17/12/2024
 
 💖 And Thank You So Much To All Who Help In This Journey 💕
 
-Copyright ©️ [SONIC KUWAL SSC](https://telegram.me@SONICKUWALSSCBOT)
+Copyright ©️ [ROHIT STRANGER BOY ](https://telegram.me@SONICKUWALSSCBOT)
 
 </b>
 </details>
@@ -97,16 +97,16 @@ Copyright ©️ [SONIC KUWAL SSC](https://telegram.me@SONICKUWALSSCBOT)
 
 <b><details><summary>Tap On Me For See Details Of Owner</summary>
 
-- WEBSITE LINK: [SONIC KUWAL SSC](https://sonickuwalssc.blogspot.com/)
-- Telegram Channel : [SONIC KUWAL UPDATE KANHA](https://t.me/SONICKUWALUPDATEKANHA)
-- Contact Link : [SONIC KUWAL SSC](https://t.me/SONICKUWALSSCBOT)
-- CONTENT ME Link : [CONTENT ME](https://t.me/SONICKUWALSSCBOT)
+- WEBSITE LINK: [STRANGER BOY](https://youtube.com/shorts/DdLtyRgxX-k?si=nYydu6u4Bmcz_owJ)
+- Telegram Channel : [STRANGER BOY](https://t.me/+OI2yHhvzFSkzNWZl)
+- Contact Link : [STRANGER BOY](https://t.me/Strangerboy27_bot_strangerboy)
+- CONTENT ME Link : [CONTENT ME](https://t.me/Strangerboy27_bot_strangerboy)
 
 </b>
 </details>
 
 
-### Copyright ©️ [SONIC KUWAL UPDATE KANHA](https://t.me/SONICKUWALUPDATEKANHA)
+### Copyright ©️ [STRANGER BOY](https://t.me/Strangerboy27_bot_strangerboy)
 
 <b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
 
