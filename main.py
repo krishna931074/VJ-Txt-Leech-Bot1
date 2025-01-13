@@ -37,10 +37,6 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start(bot: Client, m: Message):
     editable = await m.reply_text(
-        \n "https://envs.sh/rK4.jpg"
-        \n "https://envs.sh/rK4.jpg"
-        \n https://envs.sh/vif.jpg
-        \n https://envs.sh/vbT.jpg
        f"𝐇Y MERE HERO 🧑‍💻\n\n ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n
        \n❈ ◦•●❤♡ ME VIDEO DOWNLOAD BOT HU APNI TXT , Links, HTML VEAJ KR DOWNLOAD KR LE Command ye hai ↘️"THE_BOYS"🔙File , video, doc me upload CREDIT BY STRANGER BOY🙋‍♂️🧑‍💻☻️🤴💝 ♡❤●•◦ \n
        \n ╰•★★ Send Me MY FIRST NAME "THE_BOYS use kr lo bot🧑‍💻☻️💖 ★★•╯ ⟰\n
@@ -208,12 +204,12 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n
-                \n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n
+                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n\n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n
                 \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
-                cc1 = f'**[📁] Pdf_ID:↙️✮✩↖️𝑅🍬𝒽𝒾𝓉 ↘️✩✮↗️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR} [ROHIT THE BOYS].pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://envs.sh/vbp.jpg **'
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ **'
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
+                cc1 = f'**[📁] Pdf_ID:↙️✮✩↖️𝑅🍬𝒽𝒾𝓉 ↘️✩✮↗️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR} [ROHIT THE BOYS].pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
