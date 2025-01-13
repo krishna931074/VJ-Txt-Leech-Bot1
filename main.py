@@ -37,13 +37,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇Y MERE HERO 🧑‍💻\n\n ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n
-       \n❈ ◦•●❤♡ ME VIDEO DOWNLOAD BOT HU APNI TXT , Links, HTML VEAJ KR DOWNLOAD KR LE Command ye hai ↘️"THE_BOYS"🔙File , video, doc me upload CREDIT BY STRANGER BOY🙋‍♂️🧑‍💻☻️🤴💝 ♡❤●•◦ \n
-       \n ╰•★★ Send Me MY FIRST NAME "THE_BOYS use kr lo bot🧑‍💻☻️💖 ★★•╯ ⟰\n
-       \n /THE_BOYS Command And Then Follow Kar lo sare Steps..❤️‍🔥\n
-       \n  ALL APP TXT WORKING YOUTUBE  Ki EMBED LINK BAAD ME FIX KAR DANGE\n
-       . \n\n YOUTUBE LINK JALDI FIX KAR DENGE..👨‍💻..\n
-       \n more apps add SOON update contact me :- <a href='https://telegram.me/Strangerboy27_bot_strangerboy'>❖https://envs.sh/vb_.jpg ꧁༺ 𝓢𝓣𝓡𝓐𝓝𝓖𝓔𝓡 𝓑𝓞𝓨 𝓡𝓞𝓗𝓘𝓣 ༻꧂❖ ™</a>", reply_markup=InlineKeyboardMarkup(
+       f"𝐇Y MERE HERO 🧑‍💻\n\n ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\nl\n❈ ◦•●❤♡ ME VIDEO DOWNLOAD BOT HU APNI TXT , Links, HTML VEAJ KR DOWNLOAD KR LE Command ye hai ↘️"THE_BOYS"🔙File , video, doc me upload CREDIT BY STRANGER BOY🙋‍♂️🧑‍💻☻️🤴💝 ♡❤●•◦ \n\n ╰•★★ Send Me MY FIRST NAME "THE_BOYS use kr lo bot🧑‍💻☻️💖 ★★•╯ ⟰\n\n /THE_BOYS Command And Then Follow Kar lo sare Steps..❤️‍🔥\n\n  ALL APP TXT WORKING YOUTUBE  Ki EMBED LINK BAAD ME FIX KAR DANGE\n\n\n YOUTUBE LINK JALDI FIX KAR DENGE..👨‍💻..\n\n more apps add SOON update contact me :- <a href='https://telegram.me/Strangerboy27_bot_strangerboy'>❖https://envs.sh/vb_.jpg ꧁༺ 𝓢𝓣𝓡𝓐𝓝𝓖𝓔𝓡 𝓑𝓞𝓨 𝓡𝓞𝓗𝓘𝓣 ༻꧂❖ ™</a>", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+EU-tiwyLZBMzY2Jl") ],
@@ -61,8 +55,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["THE_BOYS"]))
 async def upload(bot: Client, m: Message):
-    editable = await m.reply_text('╰•★★ SEND KR APNI 🧑‍💻 TXT👀🧟‍♂️🙋‍♂️ FILE👨‍💻 OR DOWNLOAD KR LE ★★•╯.**\n
-    \nDeveloper** ─╤╦︻ ⳜƬⱤ𐤠ƝƓƸⱤ ƁΘƳ ⱤΘǶƖƬ ︻╦╤─ 🎀  𝑅💗𝒽𝒾𝓉  🎀**')
+    editable = await m.reply_text('╰•★★ SEND KR APNI 🧑‍💻 TXT👀🧟‍♂️🙋‍♂️ FILE👨‍💻 OR DOWNLOAD KR LE ★★•╯.**\n\nDeveloper** ─╤╦︻ ⳜƬⱤ𐤠ƝƓƸⱤ ƁΘƳ ⱤΘǶƖƬ ︻╦╤─ 🎀  𝑅💗𝒽𝒾𝓉  🎀**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -204,12 +197,8 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n\n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
-                cc1 = f'**[📁] Pdf_ID:↙️✮✩↖️𝑅🍬𝒽𝒾𝓉 ↘️✩✮↗️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR} [ROHIT THE BOYS].pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'
-                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
+                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n\n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
+                cc1 = f'**[📁] Pdf_ID:↙️✮✩↖️𝑅🍬𝒽𝒾𝓉 ↘️✩✮↗️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR} [ROHIT THE BOYS].pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
