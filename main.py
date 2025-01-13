@@ -37,7 +37,17 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 ❤️\n\n ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n\n❈ I Am A Bot For Download Links From Your **THE_BOYS** File And Then Upload That File Om Telegram So Basically\n\n If You Want To Use Me First Send Me ⟰ \n /THE_BOYS Command And Then Follow Few Steps..\n\n I working link ALL APP TXT WORKING NOT WORKING YOUTUBE LINK. \n\n YOUTUBE LINK WORKING SOON POSSIBLE....\n\n more apps add SOON update contact me :- <a href='https://telegram.me/SONICKUWALSSCBOT'>❖ ꧁༺ ❤️ 𝓚𝓐𝓝𝓗𝓐𝓘𝓨𝓐 𝓛𝓐𝓛 𝓜𝓔𝓔𝓝𝓐 𝓚𝓤𝓦𝓐𝓛 💕 ༻꧂ ❖ ™</a>", reply_markup=InlineKeyboardMarkup(
+        \n "https://envs.sh/rK4.jpg"
+        \n "https://envs.sh/rK4.jpg"
+        \n https://envs.sh/vif.jpg
+        \n https://envs.sh/vbT.jpg
+       f"𝐇Y MERE HERO 🧑‍💻\n\n ▁ ▂ ▄ ▅ ▆ ▇ █ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗨𝗽𝗹𝗼𝗮𝗱𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘁𝗮𝘀𝗸 █ ▇ ▆ ▅ ▄ ▂ ▁\n
+       \n❈ ◦•●❤♡ ME VIDEO DOWNLOAD BOT HU APNI TXT , Links, HTML VEAJ KR DOWNLOAD KR LE Command ye hai ↘️"THE_BOYS"🔙File , video, doc me upload CREDIT BY STRANGER BOY🙋‍♂️🧑‍💻☻️🤴💝 ♡❤●•◦ \n
+       \n ╰•★★ Send Me MY FIRST NAME "THE_BOYS use kr lo bot🧑‍💻☻️💖 ★★•╯ ⟰\n
+       \n /THE_BOYS Command And Then Follow Kar lo sare Steps..❤️‍🔥\n
+       \n  ALL APP TXT WORKING YOUTUBE  Ki EMBED LINK BAAD ME FIX KAR DANGE\n
+       . \n\n YOUTUBE LINK JALDI FIX KAR DENGE..👨‍💻..\n
+       \n more apps add SOON update contact me :- <a href='https://telegram.me/Strangerboy27_bot_strangerboy'>❖https://envs.sh/vb_.jpg ꧁༺ 𝓢𝓣𝓡𝓐𝓝𝓖𝓔𝓡 𝓑𝓞𝓨 𝓡𝓞𝓗𝓘𝓣 ༻꧂❖ ™</a>", reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+EU-tiwyLZBMzY2Jl") ],
@@ -55,7 +65,8 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["THE_BOYS"]))
 async def upload(bot: Client, m: Message):
-    editable = await m.reply_text('𝕤ᴇɴᴅ ᴛxᴛ ғɪʟᴇ ↗️replace.**\n\nDeveloper** ─╤╦︻ ⳜƬⱤ𐤠ƝƓƸⱤ ƁΘƳ ⱤΘǶƖƬ ︻╦╤─ 🎀  𝑅💗𝒽𝒾𝓉  🎀**')
+    editable = await m.reply_text('╰•★★ SEND KR APNI 🧑‍💻 TXT👀🧟‍♂️🙋‍♂️ FILE👨‍💻 OR DOWNLOAD KR LE ★★•╯.**\n
+    \nDeveloper** ─╤╦︻ ⳜƬⱤ𐤠ƝƓƸⱤ ƁΘƳ ⱤΘǶƖƬ ︻╦╤─ 🎀  𝑅💗𝒽𝒾𝓉  🎀**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -78,18 +89,19 @@ async def upload(bot: Client, m: Message):
 
     
    
-    await editable.edit(f"**𝕋ᴏᴛᴀʟ ʟɪɴᴋ𝕤 ғᴏᴜɴᴅ ᴀʀᴇ🔗🔗** **{len(links)}**\n\n**𝕊ᴇɴᴅ 𝔽ʀᴏᴍ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴɪᴛɪᴀʟ ɪ𝕤** **1**")
+    await editable.edit(f"**YOUR TOTAL🎉 LINK HEARE🧨🧨** **{len(links)}**\n\n**JAHA SE DOWNLOAD KARNA HAI WO NUMBER SEND KARO**🪄**1**")
     input0: Message = await bot.listen(editable.chat.id)
     raw_text = input0.text
     await input0.delete(True)
 
-    await editable.edit("**Now Please Send Me Your Batch Name**")
+    await editable.edit("**JIS NAME SE BATCH NIKLNA HAI WO NAAM LIKH**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
     
 
-    await editable.edit("**𝔼ɴᴛᴇʀ ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸**\n144,240,360,480,720,1080 please choose quality")
+    await editable.edit("**KIS QUALITY ME DOWNLOAD KARNA HAI🎯**\n
+    \n144,240,360,480,720,1080 Apna  quality choose kr")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -113,17 +125,18 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit("Now Enter A Caption to add caption on your uploaded file")
+    await editable.edit("JIS KE NAME SE NIKLNA HAI USKA NAAM LIKH LE")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
-    if raw_text3 == 'Robin':
+    if raw_text3 == 'ROHIT:
         MR = highlighter 
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the Thumb url/nEg » https://envs.sh/vbp.jpg \n Or if don't want thumbnail send = no")
+    await editable.edit("Apna  Thumb ka url veaj /n
+    \nEg » https://envs.sh/vbp.jpg \n Or if don't want thumbnail send = no")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -195,8 +208,12 @@ async def upload(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://envs.sh/vb_.jpg **'
+                cc = f'**[📽️] Vid_ID:🎀 🔙𝑅💗𝒽𝒾𝓉 🔜🎀** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}{MR}({res}) [ROHIT THE BOYS].mkv\n
+                \n**🔗URL »**`{url}`**\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 Thumb url➤ https://envs.sh/vb_.jpg **'
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ ▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌**'
                 cc1 = f'**[📁] Pdf_ID:↙️✮✩↖️𝑅🍬𝒽𝒾𝓉 ↘️✩✮↗️** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR} [ROHIT THE BOYS].pdf\n**🔗URL »**`{url}`**\n\n**𝔹ᴀᴛᴄʜ** » **{raw_text0}**\n\n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 ➤ https://envs.sh/vbp.jpg **'
+                \n**𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘➤▌│█║▌║▌║ 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗕𝗢𝗬 𝗥𝗢𝗛𝗜𝗧 ║▌║▌║█│▌ **'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
