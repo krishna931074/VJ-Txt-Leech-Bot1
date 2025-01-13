@@ -130,7 +130,7 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
-    if raw_text3 == 'ROHIT:
+    if raw_text3 == 'ROBIN:
         MR = highlighter 
     else:
         MR = raw_text3
